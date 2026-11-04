@@ -1,4 +1,4 @@
-<img width="1920" height="920" alt="image" src="https://github.com/user-attachments/assets/8141db24-5c52-4804-ba09-49eaad40dd64" />---
+---
 layout: default
 permalink: /blog/
 title: blog
@@ -12,8 +12,8 @@ pagination:
   sort_field: date
   sort_reverse: true
   trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+    before: 1
+    after: 3
 ---
 
 <div class="post">
