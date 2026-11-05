@@ -57,6 +57,11 @@ on:
       - "!README.md"
   workflow_dispatch:
 
+# Serialize all workflows that write to the gh-pages branch.
+concurrency:
+  group: gh-pages-writer
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
